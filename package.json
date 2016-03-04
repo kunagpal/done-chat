@@ -1,0 +1,59 @@
+{
+  "name": "done-chat",
+  "version": "0.0.0",
+  "description": "An elementary chat application built with Done.js",
+  "homepage": "",
+  "author": {
+    "name": "Kunal Nagpal",
+    "email": "kunagpal@gmail.com",
+    "url": "https://github.com/kunagpal"
+  },
+  "scripts": {
+    "test": "testee src/test.html --browsers firefox --reporter Spec",
+    "start": "can-serve --port 8080",
+    "develop": "can-serve --develop --port 8080",
+    "document": "documentjs",
+    "build": "node build"
+  },
+  "main": "done-chat/index.stache!done-autorender",
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "chat",
+    "elementary",
+    "done",
+    "js"
+  ],
+  "system": {
+    "main": "done-chat/index.stache!done-autorender",
+    "directories": {
+      "lib": "src"
+    },
+    "configDependencies": [
+      "live-reload"
+    ],
+    "npmAlgorithm": "flat"
+  },
+  "dependencies": {
+    "can": "^2.3.16",
+    "can-connect": "^0.3.4",
+    "can-ssr": "^0.11.6",
+    "done-autorender": "^0.6.3",
+    "done-component": "^0.4.0",
+    "done-css": "~1.1.16",
+    "generator-donejs": "^0.7.0",
+    "jquery": "~2.2.1",
+    "steal": "^0.14.0"
+  },
+  "devDependencies": {
+    "can-fixture": "^0.1.2",
+    "documentjs": "^0.4.2",
+    "donejs-cli": "^0.7.0",
+    "donejs-deploy": "^0.4.0",
+    "funcunit": "~3.0.0",
+    "steal-qunit": "^0.1.1",
+    "steal-tools": "^0.14.0",
+    "testee": "^0.2.4"
+  }
+}
