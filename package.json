@@ -1,18 +1,20 @@
 {
   "name": "done-chat",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "An elementary chat application built with Done.js",
-  "homepage": "",
+  "homepage": "http://donechat.herokuapp.com",
   "author": {
     "name": "Kunal Nagpal",
     "email": "kunagpal@gmail.com",
     "url": "https://github.com/kunagpal"
   },
   "scripts": {
+    "deploy": "git push heroku master",
     "test": "testee src/test.html --browsers firefox --reporter Spec",
     "start": "can-serve --port 8080",
     "develop": "can-serve --develop --port 8080",
     "document": "documentjs",
+    "postinstall": "node build",
     "build": "node build"
   },
   "main": "done-chat/index.stache!done-autorender",
@@ -42,6 +44,7 @@
     "done-autorender": "^0.6.3",
     "done-component": "^0.4.0",
     "done-css": "~1.1.16",
+    "foundation": "^4.2.1-1",
     "generator-donejs": "^0.7.0",
     "jquery": "~2.2.1",
     "steal": "^0.14.0"
