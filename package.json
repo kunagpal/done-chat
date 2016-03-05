@@ -14,7 +14,6 @@
     "start": "can-serve --port 8080",
     "develop": "can-serve --develop --port 8080",
     "document": "documentjs",
-    "postinstall": "node build",
     "build": "node build"
   },
   "main": "done-chat/index.stache!done-autorender",
