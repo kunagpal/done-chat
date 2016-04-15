@@ -2,6 +2,7 @@
 [![Issue Count](https://codeclimate.com/github/kunagpal/done-chat/badges/issue_count.svg)](https://codeclimate.com/github/kunagpal/done-chat)
 
 # done-chat
+
 An elementary chat application built with done.js
 
 ## Getting started
