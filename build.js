@@ -1,4 +1,4 @@
-var path = reqiure('path').join;
+var join = require('path').join;
 var stealTools = require("steal-tools");
 
 var buildPromise = stealTools.build({

@@ -1,1 +1,1 @@
-web: npm start
+web: donejs build && npm start

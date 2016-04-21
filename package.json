@@ -1,6 +1,6 @@
 {
   "name": "done-chat",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An elementary chat application built with Done.js",
   "homepage": "http://donechat.herokuapp.com",
   "author": {
@@ -11,8 +11,8 @@
   "scripts": {
     "deploy": "git push heroku master",
     "test": "testee src/test.html --browsers firefox --reporter Spec",
-    "start": "can-serve --port 8080",
-    "develop": "can-serve --develop --port 8080",
+    "start": "can-serve --port 3000",
+    "develop": "can-serve --develop --port 3000",
     "document": "documentjs",
     "build": "node build"
   },
