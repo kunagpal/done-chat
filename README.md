@@ -3,40 +3,18 @@
 
 # done-chat
 
-An elementary chat application built with done.js
+An elementary chat application built with [done.js](https://donejs.com/)
+Hosted [here](https://donechat.herokuapp.com)
 
 ## Getting started
 
-To install all dependencies, (e.g. after cloning it from a Git repository) run
+To install all dependencies, run `npm install donejs -g && npm install`
 
-```
-npm install donejs -g
-npm install
-```
+## Tests can be run with `donejs test`
 
-## Running tests
+## Development mode can be started with `donejs develop`
 
-Tests can be run with
-
-```
-donejs test
-```
-
-## Development mode
-
-Development mode can be started with
-
-```
-donejs develop
-```
-
-## Build and production mode
-
-To build the application into a production bundle run
-
-```
-donejs build
-```
+## To build the application into a production bundle run `donejs build`
 
 In Unix environment the production application can be started like this:
 

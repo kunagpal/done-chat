@@ -1,1 +1,1 @@
-web: donejs build && npm start
+web: node node_modules/.bin/donejs build && npm start
