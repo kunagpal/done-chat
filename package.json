@@ -38,24 +38,24 @@
   },
   "dependencies": {
     "can": "^2.3.16",
-    "can-connect": "^0.3.4",
+    "can-connect": "^0.5.5",
     "can-ssr": "^0.11.6",
-    "done-autorender": "^0.6.3",
-    "done-component": "^0.4.0",
-    "done-css": "~1.1.16",
+    "done-autorender": "^0.8.0",
+    "done-component": "^0.5.0",
+    "done-css": "~2.0.3",
     "foundation": "^4.2.1-1",
-    "generator-donejs": "^0.7.0",
-    "jquery": "~2.2.1",
-    "steal": "^0.14.0"
+    "generator-donejs": "^0.9.4",
+    "jquery": "~3.1.0",
+    "steal": "^0.16.35"
   },
   "devDependencies": {
-    "can-fixture": "^0.1.2",
+    "can-fixture": "^0.3.2",
     "documentjs": "^0.4.2",
-    "donejs-cli": "^0.7.0",
+    "donejs-cli": "^0.9.5",
     "donejs-deploy": "^0.4.0",
     "funcunit": "~3.0.0",
     "steal-qunit": "^0.1.1",
-    "steal-tools": "^0.14.0",
+    "steal-tools": "^0.16.7",
     "testee": "^0.2.4"
   }
 }
