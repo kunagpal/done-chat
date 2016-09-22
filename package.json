@@ -45,7 +45,7 @@
     "done-css": "~2.0.3",
     "foundation": "^4.2.1-1",
     "generator-donejs": "^0.9.4",
-    "jquery": "~3.1.0",
+    "jquery": "~3.1.1",
     "steal": "^0.16.35"
   },
   "devDependencies": {
