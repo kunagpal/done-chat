@@ -53,7 +53,7 @@
     "documentjs": "^0.4.2",
     "donejs-cli": "^0.9.5",
     "donejs-deploy": "^0.4.0",
-    "funcunit": "~3.0.0",
+    "funcunit": "~3.1.0",
     "steal-qunit": "^0.1.4",
     "steal-tools": "^0.16.8",
     "testee": "^0.2.4"
