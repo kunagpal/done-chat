@@ -44,7 +44,7 @@
     "done-component": "^0.5.0",
     "done-css": "~2.0.3",
     "foundation": "^4.2.1-1",
-    "generator-donejs": "^0.9.5",
+    "generator-donejs": "^0.9.6",
     "jquery": "~3.1.1",
     "steal": "^0.16.43"
   },
