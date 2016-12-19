@@ -37,7 +37,7 @@
     "npmAlgorithm": "flat"
   },
   "dependencies": {
-    "can": "^3.2.2",
+    "can": "^3.3.0",
     "can-connect": "^1.0.16",
     "can-ssr": "^0.11.6",
     "done-autorender": "^0.8.0",
