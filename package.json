@@ -55,7 +55,7 @@
     "donejs-deploy": "^0.4.0",
     "funcunit": "~3.1.0",
     "steal-qunit": "^0.1.4",
-    "steal-tools": "^0.16.8",
+    "steal-tools": "^1.0.2",
     "testee": "^0.3.0"
   }
 }
