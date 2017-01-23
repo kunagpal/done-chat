@@ -3,6 +3,8 @@
 
 # done-chat
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kunagpal/done-chat.svg)](https://greenkeeper.io/)
+
 An elementary chat application built with [done.js](https://donejs.com/)
 Hosted [here](https://donechat.herokuapp.com)
 
